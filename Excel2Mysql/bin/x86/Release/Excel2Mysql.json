@@ -1,0 +1,1 @@
+[{"host":"192.168.0.6","port":3306,"user":"root","password":"123456","database":"xsanguo_dev","desc":"内网测试服务器[Dev]","charset":"utf8"},{"host":"192.168.0.6","port":3306,"user":"root","password":"123456","database":"xsanguo_release","desc":"内网测试服务器[Release]","charset":"utf8"}]

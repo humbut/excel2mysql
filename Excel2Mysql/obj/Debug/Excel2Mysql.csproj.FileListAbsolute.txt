@@ -1,0 +1,10 @@
+E:\projects\Excel2Mysql\Excel2Mysql\bin\Debug\Excel2Mysql.exe.config
+E:\projects\Excel2Mysql\Excel2Mysql\bin\Debug\Excel2Mysql.exe
+E:\projects\Excel2Mysql\Excel2Mysql\bin\Debug\Excel2Mysql.pdb
+E:\projects\Excel2Mysql\Excel2Mysql\bin\Debug\MySql.Data.dll
+E:\projects\Excel2Mysql\Excel2Mysql\bin\Debug\Newtonsoft.Json.dll
+E:\projects\Excel2Mysql\Excel2Mysql\obj\Debug\Excel2Mysql.Main.resources
+E:\projects\Excel2Mysql\Excel2Mysql\obj\Debug\Excel2Mysql.Properties.Resources.resources
+E:\projects\Excel2Mysql\Excel2Mysql\obj\Debug\Excel2Mysql.csproj.GenerateResource.Cache
+E:\projects\Excel2Mysql\Excel2Mysql\obj\Debug\Excel2Mysql.exe
+E:\projects\Excel2Mysql\Excel2Mysql\obj\Debug\Excel2Mysql.pdb

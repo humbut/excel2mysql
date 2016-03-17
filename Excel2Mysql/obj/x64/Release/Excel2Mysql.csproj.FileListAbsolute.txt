@@ -1,0 +1,11 @@
+E:\projects\Excel2Mysql\Excel2Mysql\bin\x64\Release\Excel2Mysql.exe.config
+E:\projects\Excel2Mysql\Excel2Mysql\bin\x64\Release\Excel2Mysql.exe
+E:\projects\Excel2Mysql\Excel2Mysql\bin\x64\Release\Excel2Mysql.pdb
+E:\projects\Excel2Mysql\Excel2Mysql\bin\x64\Release\MySql.Data.dll
+E:\projects\Excel2Mysql\Excel2Mysql\bin\x64\Release\Newtonsoft.Json.dll
+E:\projects\Excel2Mysql\Excel2Mysql\obj\x64\Release\Excel2Mysql.Main.resources
+E:\projects\Excel2Mysql\Excel2Mysql\obj\x64\Release\Excel2Mysql.Properties.Resources.resources
+E:\projects\Excel2Mysql\Excel2Mysql\obj\x64\Release\Excel2Mysql.csproj.GenerateResource.Cache
+E:\projects\Excel2Mysql\Excel2Mysql\obj\x64\Release\Excel2Mysql.exe
+E:\projects\Excel2Mysql\Excel2Mysql\obj\x64\Release\Excel2Mysql.pdb
+E:\projects\Excel2Mysql\Excel2Mysql\obj\x64\Release\Excel2Mysql.csprojResolveAssemblyReference.cache

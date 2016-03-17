@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Microsoft\ILMerge\ILMerge.exe" /log /copyattrs /allowdup /targetplatform:v4 /ndebug /target:winexe /out:NewExe.exe Excel2Mysql.exe *.dll /wildcards
