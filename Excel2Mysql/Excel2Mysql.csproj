@@ -178,10 +178,6 @@
   <ItemGroup>
     <EmbeddedResource Include="myAppIcon.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Excel.4.5.dll" />
-    <Content Include="ICSharpCode.SharpZipLib.dll" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
