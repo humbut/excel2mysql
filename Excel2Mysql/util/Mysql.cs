@@ -9,7 +9,7 @@ namespace Excel2Mysql.util
     class Mysql
     {
         public static readonly Mysql Instance = new Mysql();
-        private static string _configTableName = "config2$";
+        private static string _configTableName = @"config2";
 
         private string createSql(DataSet execlDataSet, out string dbTableName)
         {
@@ -23,7 +23,16 @@ namespace Excel2Mysql.util
             DataTable configTbl = execlDataSet.Tables[_configTableName];
             dbTableName = configTbl.Rows[0][0].ToString();
 
-            DataTable dataTbl = execlDataSet.Tables["data$"];
+            DataTable dataTbl;
+
+            if (execlDataSet.Tables[@"data"] == null)
+            {
+                dataTbl = execlDataSet.Tables[@"Sheet1"];
+            }
+            else
+            {
+                dataTbl = execlDataSet.Tables[@"data"];
+            }
 
             List<string> sqlKeys = new List<string>();
             List<int> sqlKeyIndexs = new List<int>();

@@ -2,6 +2,8 @@
 using System.Data.OleDb;
 using System.Windows.Forms;
 using System;
+using Excel;
+using System.IO;
 
 namespace Excel2Mysql.util
 {
@@ -12,6 +14,27 @@ namespace Excel2Mysql.util
         public DataSet Load(string filePath, out string mysqlError)
         {
             mysqlError = "";
+
+            DataSet result = null;
+
+            try
+            {
+                FileStream stream = File.Open(filePath, FileMode.Open, FileAccess.Read);
+                IExcelDataReader excelReader = ExcelReaderFactory.CreateOpenXmlReader(stream);
+
+                excelReader.IsFirstRowAsColumnNames = false;
+                result = excelReader.AsDataSet();
+
+                excelReader.Close();
+            }
+            catch (IOException e)
+            {
+                mysqlError = e.Message;
+            }
+
+            return result;
+            
+            /*
 
             string fileExt = System.IO.Path.GetExtension(filePath).ToLower();
             string connStr;
@@ -71,6 +94,8 @@ namespace Excel2Mysql.util
             }
 
             return ds;
+
+            */
         }
     }
 }
