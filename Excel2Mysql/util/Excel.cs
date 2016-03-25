@@ -19,7 +19,7 @@ namespace Excel2Mysql.util
 
             try
             {
-                FileStream stream = File.Open(filePath, FileMode.Open, FileAccess.Read);
+                FileStream stream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
                 IExcelDataReader excelReader = ExcelReaderFactory.CreateOpenXmlReader(stream);
 
                 excelReader.IsFirstRowAsColumnNames = false;
