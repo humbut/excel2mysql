@@ -11,3 +11,4 @@ E:\projects\Excel2Mysql\Excel2Mysql\bin\x64\Debug\MySql.Data.dll
 E:\projects\Excel2Mysql\Excel2Mysql\obj\x64\Debug\Excel2Mysql.csprojResolveAssemblyReference.cache
 E:\projects\Excel2Mysql\Excel2Mysql\bin\x64\Debug\Excel.4.5.dll
 E:\projects\Excel2Mysql\Excel2Mysql\bin\x64\Debug\ICSharpCode.SharpZipLib.dll
+E:\projects\Excel2Mysql\Excel2Mysql\bin\x64\Debug\Excel.4.5.pdb

@@ -44,7 +44,7 @@
             this.btSelectAll.Name = "btSelectAll";
             this.btSelectAll.Size = new System.Drawing.Size(85, 45);
             this.btSelectAll.TabIndex = 0;
-            this.btSelectAll.Text = "全    选";
+            this.btSelectAll.Text = "Check All";
             this.btSelectAll.UseVisualStyleBackColor = true;
             this.btSelectAll.Click += new System.EventHandler(this.btSelectAll_Click);
             // 
@@ -54,7 +54,7 @@
             this.btImport.Name = "btImport";
             this.btImport.Size = new System.Drawing.Size(85, 45);
             this.btImport.TabIndex = 0;
-            this.btImport.Text = "导    入";
+            this.btImport.Text = "Import";
             this.btImport.UseVisualStyleBackColor = true;
             this.btImport.Click += new System.EventHandler(this.btImport_Click);
             // 
@@ -84,7 +84,7 @@
             this.btInverse.Name = "btInverse";
             this.btInverse.Size = new System.Drawing.Size(85, 45);
             this.btInverse.TabIndex = 0;
-            this.btInverse.Text = "反    选";
+            this.btInverse.Text = "Invert";
             this.btInverse.UseVisualStyleBackColor = true;
             this.btInverse.Click += new System.EventHandler(this.btInverse_Click);
             // 
@@ -98,7 +98,8 @@
             this.desc.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.desc.Size = new System.Drawing.Size(116, 195);
             this.desc.TabIndex = 5;
-            this.desc.Text = "\nMysql导表工具v1.0\n\n拖拽多个Excel文件\n\n批量导入Mysql\n\n自动执行hookUrl\n\nhambut@qq.com";
+            this.desc.Text = "\nExcel2Mysql Helper\n\nDrag excel files\n\nAuto execute hook after import\n\nexcel2mysq" +
+    "l@hambut.com";
             // 
             // Main
             // 

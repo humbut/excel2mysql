@@ -76,6 +76,15 @@ namespace Excel2Mysql
                 this.list.SetItemChecked(this.list.Items.Count - 1, true);
                 this._files.Add(name, filePath);
             }
+            else
+            {
+                int index = this.list.Items.IndexOf(name);
+
+                if (index != -1)
+                {
+                    this.list.SetItemChecked(index, true);
+                }
+            }
         }
 
         private void showError(int interval, string errMsg, ToolTipIcon tipIcon)
